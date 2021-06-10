@@ -1,0 +1,53 @@
+    1  git --version
+    2  cd c:\_Work\_doc\edu\materials\3.2021-06-08_git_begin\
+    3  cd c:\_Work\_doc\edu\materials\3.2021-06-08_git_begin
+    4  ll
+    5  pwd
+    6  cd c:\_Work
+    7  cd c:\_Work\_doc\edu\materials\3.2021-06-08_git_begin\
+    8  cd _doc\edu\materials\3.2021-06-08_git_begin\
+    9  cd _doc/
+   10  cd edu/materials/3.2021-06-08_git_begin/git_repo/
+   11  ll
+   12  git status
+   13  git show
+   14  git --help
+   15  ll
+   16  ll
+   17  git clone https://github.com/AlexandercheOTUS/students.git
+   18  lls
+   19  ll
+   20  cd students/
+   21  ll
+   22  git config --global user.name "Alexander Cherkasov"
+   23  git config --global user.email artemstarostenko65@gmail.com
+   24  git config --global user.email a.cherkasov@dcoa.ru
+   25  ll
+   26  git --help
+   27  git status
+   28  tig
+   29  git log
+   30  git config --list 
+   31  history 
+   32  ll
+   33  pwd
+   34  ll
+   35  touch alexander-cherkasov.txt
+   36  ll
+   37  cat alexander-cherkasov.txt 
+   38  git status 
+   39  git commit -am "add alexander-cherkasov.txt"
+   40  git status
+   41  tig
+   42  git status
+   43  git add alexander-cherkasov.txt 
+   44  git status
+   45  git status
+   46  tig
+   47  git commit -am "add alexander-cherkasov.txt"
+   48  git status 
+   49  tig
+   50  git push 
+   51  history 
+   52  ll
+   53  history > command_history.txt
